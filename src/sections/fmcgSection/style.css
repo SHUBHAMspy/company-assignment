@@ -1,0 +1,144 @@
+.fmcg-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.line-img{
+  width: 100%!important;
+}
+
+@media(max-width:675px){
+  .fmcg-section{
+    display: flex;
+    /* padding-right: 50px; */
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .fmcg-image{
+    margin: auto;
+    height: 300px;
+    width: 300px;
+  }
+  .fmcg-content{
+    width: 100%;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+  }
+  .fmcg-info{
+    margin: auto;
+  }
+  .fmcg-heading{
+    text-align: center;
+    line-height: 110%;
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+  }
+  .fmcg-heading>span{
+    color :#358d82;
+  }
+  .fmcg-description{
+    color: white;
+    width: 380px;
+    height: 100px;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    margin: auto;
+  }
+  .fmcg-icon{
+    background: linear-gradient(90deg,#f2efd3,#358d82);
+    border-radius: 50%;
+    /* margin: 0.2rem;
+    padding: 0.2rem; */
+    color: white;
+    visibility: hidden;
+    width: 0;
+  }
+}
+@media(min-width:676px){
+  .fmcg-image{
+    margin-bottom: 60px;
+    height: 300px;
+    width: 315px;
+  }
+  .fmcg-content{
+    width: 350px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .fmcg-heading{
+    text-align: left;
+    line-height: 115%;
+    color: #358d82;
+    font-size: 25px;
+  }
+  .fmcg-description{
+    color: white;
+    width: 400px;
+    height: 150px;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: left;
+    margin-left: auto;
+  }
+  .fmcg-icon{
+    background: linear-gradient(90deg,#f2efd3,#358d82);
+    box-shadow: 0px 0px 30px #358D82, inset 0px 0px 4px #FFFFFF;
+    border-radius: 50%;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    color: white;
+  }
+}
+
+@media(min-width:1024px){
+  .fmcg-image{
+    margin-bottom: 60px;
+    height: 300px;
+    width: 550px;
+  }
+  
+  .fmcg-content{
+    width: 478px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .fmcg-heading{
+    text-align: left;
+    line-height: 120%;
+    color: white;
+    font-size: 30px;
+  }
+  .fmcg-heading>span{
+    color :#358d82;
+  }
+  .fmcg-description{
+    color: white;
+    width: 450px;
+    height: 225px;
+    font-size: 25px;
+    line-height: 150%;
+    text-align: left;
+    margin-left: auto;
+  }
+  .line-img{
+    width: 100%!important;
+  }
+  .fmcg-icon{
+    background: linear-gradient(90deg,#f2efd3,#358d82);
+    box-shadow: 0px 0px 30px #358D82, inset 0px 0px 4px #FFFFFF;
+    border-radius: 50%;
+    margin: 1rem;
+    padding: 1rem;
+    color: white;
+  }
+}

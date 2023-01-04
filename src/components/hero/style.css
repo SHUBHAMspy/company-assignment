@@ -1,0 +1,258 @@
+
+
+.hero{
+  position: relative;
+  width: 100%;
+  height: max-content;
+  
+  /* padding-left: 50px;
+  padding-right: 50px; */
+  /* left: 0px; */
+  /* top: -14px; */
+}
+.overlay{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.65);
+
+}
+.hero-content{
+  /* position: absolute; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 721px;
+  padding-left: 50px;
+  padding-right: 50px;
+  top: 10px;
+  margin: auto;
+}
+.company-name{
+  position: absolute;
+  width: 700px;
+  height: 250px;
+  margin: auto;
+  top: 120px;
+
+  font-family: 'ZilapOrionPersonalUse', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 117%;
+  /* or 125px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  background: linear-gradient(90deg, #E65C00 0%, #F9D423 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+
+  opacity: 0.99;
+  text-shadow: 0px 20px 20px rgba(0, 0, 0, 0.5);
+}
+
+.hero-description{
+  position: absolute;
+  width: 700px;
+  height: fit-content;
+  /* padding-left: 50px;
+  padding-right: 50px; */
+  top: 360px;
+  margin-bottom: 20px;
+
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 150%;
+  /* or 75px */
+
+  text-align: center;
+
+  color: #FFFFFF;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.hero-img{
+  /* height: 1045px;
+width: 1200px; */
+  /* left: 0px;
+  top: -14px;
+  border-radius: 0px; */
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+  
+  /* background-size: cover; */
+  /* background-attachment: fixed;
+  background-position: center top; */
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),var(--img) ;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+
+  background-size: cover;
+  background-position: center ;
+}
+@media(min-width:641px){
+  
+}
+@media(min-width:676px){
+  .hero-description{
+    position: absolute;
+    width: 650px;
+    height: fit-content;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    top: 360px;
+    margin-bottom: 20px;
+  
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 140%;
+    /* or 75px */
+  
+    text-align: center;
+  
+    color: #FFFFFF;
+  
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .hero-button{
+    box-sizing: border-box;
+  
+  /* Auto layout */
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 25px;
+    gap: 10px;
+  
+    color: white;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    /* left: 300px; */
+    top: 520px;
+    margin: auto;
+  
+    background: linear-gradient(90deg, #F9D423 0%, #E65C00 100%);
+    border: 2px solid #FFFFFF;
+    border-radius: 24px;
+  }
+}
+@media(min-width:1024px){
+  .company-name{
+    position: absolute;
+    width: 700px;
+    height: 250px;
+    margin: auto;
+    top: 120px;
+  
+    font-family: 'ZilapOrionPersonalUse', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 117%;
+    /* or 125px */
+  
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+    background: linear-gradient(90deg, #E65C00 0%, #F9D423 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+  
+    opacity: 0.99;
+    text-shadow: 0px 20px 20px rgba(0, 0, 0, 0.5);
+  }
+  .hero-description{
+    position: absolute;
+    width: 760px;
+    height: fit-content;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    top: 360px;
+    margin-bottom: 20px;
+  
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 150%;
+    /* or 75px */
+  
+    text-align: center;
+  
+    color: #FFFFFF;
+  
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .hero-button{
+    box-sizing: border-box;
+  
+  /* Auto layout */
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 30px;
+    gap: 10px;
+  
+    color: white;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    /* left: 300px; */
+    top: 520px;
+    margin: auto;
+  
+    background: linear-gradient(90deg, #F9D423 0%, #E65C00 100%);
+    border: 2px solid #FFFFFF;
+    border-radius: 24px;
+  }
+}
+
+@media(min-width:1900px){
+  .hero-button{
+    box-sizing: border-box;
+  
+  /* Auto layout */
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 48px;
+    gap: 10px;
+  
+    
+    width: 240px;
+    height: 60px;
+    /* left: 300px; */
+    top: 800px;
+    margin: auto;
+  
+    background: linear-gradient(90deg, #F9D423 0%, #E65C00 100%);
+    border: 2px solid #FFFFFF;
+    border-radius: 24px;
+  }
+}

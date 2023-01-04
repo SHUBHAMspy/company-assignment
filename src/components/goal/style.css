@@ -1,0 +1,196 @@
+.goal{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 80px;
+  padding-top: 80px;
+  height: 600px;
+}
+.goal-content{
+  margin: auto;
+}
+
+
+.goal-description{
+  
+  width: 850px;
+  /* height: 252px; */
+  margin-left: 40px;
+  /* left: 293px;
+  top: 1449px; */
+
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 140%;
+  /* or 61px */
+
+  text-align: center;
+
+  background: linear-gradient(90deg, #FFFFFF 0%, #FFFFFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+}
+.polygon{
+  /* position: absolute; */
+  width: 313.05px;
+  height: 331.49px;
+  left: -145px;
+  top: 950.85px;
+
+  /* background: linear-gradient(181.16deg, #FF7917 -26.31%, #FFDD2D 128.88%);
+  transform: matrix(0.9, -0.48, 0.43, 0.89, 0, 0); */
+}
+
+@media(max-width:675px){
+  .goal-heading{
+  
+    /* width: 1000px; */
+    height: 105px;
+    /* left: 361px;
+    top: 1344px; */
+    margin-left:25px;
+    font-family: 'Zilap Orion Personal Use';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 120%;
+    /* identical to box height, or 105px */
+  
+    /* display: flex;
+    align-items: center; */
+  
+    background: linear-gradient(90deg, #FFE259 0%, #FFA751 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+  }
+  .goal-description{
+    width: 300px;
+    height: 252px;
+    font-size: 20px;
+    line-height: 130%;
+  }
+  .polygon{
+    /* position: absolute; */
+    width: 60px;
+    height: 300.49px;
+    left: -155px;
+    top: 950.85px;
+  
+    /* background: linear-gradient(181.16deg, #FF7917 -26.31%, #FFDD2D 128.88%);
+    transform: matrix(0.9, -0.48, 0.43, 0.89, 0, 0); */
+  }
+}
+
+@media(min-width:676px){
+  .goal-heading{
+  
+    /* width: 1000px; */
+    height: 105px;
+    /* left: 361px;
+    top: 1344px; */
+    /* margin-left:40px; */
+    font-family: 'Zilap Orion Personal Use';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 100%;
+    /* identical to box height, or 105px */
+  
+    display: flex;
+    align-items: center;
+  
+    background: linear-gradient(90deg, #FFE259 0%, #FFA751 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+  }
+  .goal-description{
+    width: 500px;
+    height: 252px;
+    font-size: 30px;
+    line-height: 120%;
+  }
+
+  .polygon{
+    position: absolute;
+    width: 240px;
+    height: 300.49px;
+    left: -155px;
+    top: 950.85px;
+  
+    /* background: linear-gradient(181.16deg, #FF7917 -26.31%, #FFDD2D 128.88%);
+    transform: matrix(0.9, -0.48, 0.43, 0.89, 0, 0); */
+  }
+}
+@media(min-width:1024px){
+  .goal-heading{
+  
+    /* width: 1000px; */
+    height: 105px;
+    /* left: 361px;
+    top: 1344px; */
+    margin-left:40px;
+    font-family: 'ZilapOrionPersonalUse';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 140%;
+    /* identical to box height, or 105px */
+  
+    display: flex;
+    align-items: center;
+  
+    background: linear-gradient(90deg, #FFE259 0%, #FFA751 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+  }
+  
+  .goal-description{
+    width: 780px;
+    height: 252px;
+    font-size: 35px;
+    line-height: 115%;
+  }
+
+  .polygon{
+    position: absolute;
+    width: 313.05px;
+    height: 331.49px;
+    left: -145px;
+    top: 950.85px;
+  }
+}
+
+@media(min-width:1900px){
+  .goal-description{
+  
+    width: 1342px;
+    height: 252px;
+    left: 293px;
+    top: 1449px;
+  
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 145%;
+    /* or 61px */
+  
+    text-align: center;
+  
+    background: linear-gradient(90deg, #FFFFFF 0%, #FFFFFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+  }
+}
