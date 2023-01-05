@@ -26,7 +26,7 @@ const Accomodation = () => {
               examination centres and hospitals to provide comfortable and
               convenient accommodation at pocket friendly prices.
             </p>
-            <Button color={'#ffa751'} margin={'auto'}/>
+            <Button className={'accomodation-button'}/>
           </div>
         </div>
         <img className='accomodation-image' src={AccomodationImage} alt="hotel accomodation"/>

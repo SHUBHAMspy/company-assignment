@@ -9,6 +9,25 @@
   width: 100%!important;
 }
 
+.packaging-button{
+  border: 1px solid #d6ae7b;
+  color: white;
+  width: 140px;
+  border-radius: 15px;
+  font-size: 10px;
+  line-height: 18px;
+  padding: 10px 20px;
+  position: relative;
+  margin-left: auto;
+}
+.packaging-button>span{
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 5px;
+  position: absolute;
+  right: -6px;
+  top: 11px;
+}
 
 @media(max-width:675px){
   .packaging-section{
@@ -62,6 +81,9 @@
     color: white;
     visibility: hidden;
     width: 0;
+  }
+  .packaging-button{
+    margin: auto;
   }
 }
 @media(min-width:676px){

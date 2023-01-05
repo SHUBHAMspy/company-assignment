@@ -26,7 +26,7 @@ const Fmcg = () => {
               to make your days more than ordinary. We plan to offer you
               nothing less than the best.
             </p>
-            <Button color={'#ffa751'} margin={'auto'}/>
+            <Button className={'fmcg-button'}/>
           </div>
         </div>
         <img className='fmcg-image' src={fmcgImage} alt="fmcg"/>

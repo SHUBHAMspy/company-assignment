@@ -27,7 +27,7 @@ const Technology = () => {
                 tomorrow.
               </p>
             </div>
-            <Button color={'#a811da'} margin={'auto'}/>
+            <Button className={'technology-button'} />
           </div>
           <span className="icon">
             <FontAwesomeIcon icon={faCubes} />

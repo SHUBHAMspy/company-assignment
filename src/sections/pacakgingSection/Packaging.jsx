@@ -21,7 +21,7 @@ const Packaging = () => {
                 priority.
               </p>
             </div>
-            <Button color={'#d6ae7b'} margin={'auto'}/>
+            <Button className={'packaging-button'}/>
           </div>
           <span className="packaging-icon">
             <FontAwesomeIcon icon={faBoxOpen} />

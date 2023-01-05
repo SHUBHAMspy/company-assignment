@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from 'react'
 import './style.css'
 
-const Button = ({color,margin}) => {
+const Button = ({className}) => {
   const [isMobile, setIsMobile] = useState(false)
-  let style = isMobile 
-    ? {
-        "borderColor": `${color}`,
-        "marginLeft":`${margin}`
-      }
-    : {
-        "borderColor": `${color}`,
-        "margin":`${margin}`
-      }  
+  // let style = isMobile 
+  //   ? {
+  //       "borderColor": `${color}`,
+  //       "margin":`${margin}`
+  //     }
+  //   : {
+  //       "borderColor": `${color}`,
+  //       "marginLeft":`${margin}`
+  //     }  
   useEffect(() => {
     window.addEventListener('resize',resize)
   
@@ -21,12 +21,12 @@ const Button = ({color,margin}) => {
   }, [])
   
   let resize = () => {
-    if(window.innerWidth === 675) setIsMobile(true)
+    if(window.innerWidth <= 675) setIsMobile(true)
   }
   return (
     <button 
-      className='section-button' 
-      style={style}
+      className={className}
+      // style={style}
       >Read More
       <span></span>
 

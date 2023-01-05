@@ -58,6 +58,25 @@
   border: 2px solid rgba(45, 152, 226, 0.12);
   transform: matrix(1, 0, 0.8, -1, 0.5, 0);
 } */
+.technology-button{
+  border: 1px solid #a811da;
+  color: white;
+  width: 140px;
+  border-radius: 15px;
+  font-size: 10px;
+  line-height: 18px;
+  padding: 10px 20px;
+  position: relative;
+  margin-left: auto;
+}
+.technology-button>span{
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 5px;
+  position: absolute;
+  right: -6px;
+  top: 11px;
+}
 
 @media(max-width:675px){
   .technology-section{
@@ -110,6 +129,9 @@
     color: white;
     visibility: hidden;
     width: 0;
+  }
+  .technology-button{
+    margin: auto;
   }
 }
 @media(min-width:676px){

@@ -7,6 +7,25 @@
 .line-img{
   width: 100%!important;
 }
+.accomodation-button{
+  border: 1px solid #ffa751;
+  color: white;
+  width: 140px;
+  border-radius: 15px;
+  font-size: 10px;
+  line-height: 18px;
+  padding: 10px 20px;
+  position: relative;
+  margin-right: auto;
+}
+.accomodation-button>span{
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 5px;
+  position: absolute;
+  right: -6px;
+  top: 11px;
+}
 
 @media(max-width:675px){
   .accomodation-section{
@@ -60,6 +79,9 @@
     color: white;
     visibility: hidden;
     width: 0;
+  }
+  .accomodation-button{
+    margin: auto;
   }
 }
 @media(min-width:676px){

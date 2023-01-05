@@ -26,7 +26,7 @@ const Agri = () => {
                 of nature
               </p>
             </div>
-            <Button color={'#579181'} margin={'auto'}/>
+            <Button className={'agriculture-button'}/>
           </div>
           <span className="agri-icon">
             <FontAwesomeIcon icon={faLeaf} />

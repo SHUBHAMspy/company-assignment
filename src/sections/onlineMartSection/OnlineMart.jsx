@@ -26,7 +26,7 @@ const OnlineMart = () => {
               motivated to provide everything you need right at one place
               under the comfort of your homes.
             </p>
-            <Button color={'#9796f0'} margin={'auto'}/>
+            <Button className={'onlinemart-button'}/>
           </div>
         </div>
         <img className='onlinemart-image' src={Ecommerce} alt="online market place"/>
