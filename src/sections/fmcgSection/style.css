@@ -43,9 +43,10 @@
   }
   .fmcg-description{
     color: white;
-    width: 380px;
-    height: 100px;
+    width: 375px;
+    height: 140px;
     font-size: 15px;
+    padding: 15px;
     line-height: 150%;
     text-align: center;
     margin: auto;

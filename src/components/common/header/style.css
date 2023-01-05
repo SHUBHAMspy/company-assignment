@@ -9,7 +9,14 @@
   display: flex;
   justify-content: space-between;
 }
-
+@media(max-width:675px){
+  .header{
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    
+  }
+}
 @media(min-width:676px){
   .header{
     position: absolute;

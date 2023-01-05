@@ -7,7 +7,13 @@
 
   /* background: url(logo ramaera); */
 }
-
+@media(max-width:675px){
+  .logo{
+    width: 80px;
+    height: 80px;
+    /* background: url(logo ramaera); */
+  }
+}
 @media(min-width:676px){
   .logo{
     width: 80px;
