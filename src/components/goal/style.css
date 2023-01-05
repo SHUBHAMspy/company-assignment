@@ -15,7 +15,7 @@
   
   width: 850px;
   /* height: 252px; */
-  margin-left: 40px;
+  /* margin-left: 40px; */
   /* left: 293px;
   top: 1449px; */
 
@@ -49,14 +49,14 @@
   .goal-heading{
   
     /* width: 1000px; */
-    height: 105px;
+    height: 85px;
     /* left: 361px;
     top: 1344px; */
-    margin-left:25px;
-    font-family: 'Zilap Orion Personal Use';
+    text-align: center;
+    font-family: 'ZilapOrionPersonalUse';
     font-style: normal;
     font-weight: 600;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 120%;
     /* identical to box height, or 105px */
   
@@ -72,12 +72,13 @@
   .goal-description{
     width: 300px;
     height: 252px;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 130%;
+    margin: auto;
   }
   .polygon{
     /* position: absolute; */
-    width: 60px;
+    width: 50px;
     height: 300.49px;
     left: -155px;
     top: 950.85px;
@@ -95,10 +96,11 @@
     /* left: 361px;
     top: 1344px; */
     /* margin-left:40px; */
-    font-family: 'Zilap Orion Personal Use';
+    font-family: 'ZilapOrionPersonalUse';
     font-style: normal;
     font-weight: 600;
     font-size: 45px;
+    text-align: center;
     line-height: 100%;
     /* identical to box height, or 105px */
   
@@ -116,6 +118,7 @@
     height: 252px;
     font-size: 30px;
     line-height: 120%;
+    margin: auto;
   }
 
   .polygon{

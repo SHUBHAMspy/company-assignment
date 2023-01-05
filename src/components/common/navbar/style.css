@@ -36,6 +36,38 @@
   align-items: center;
   width: 100px;
 }
+@media (min-width: 676px){
+  .navbar{
+    position: absolute;
+    box-sizing: border-box;
+    width: 80%;
+    height: 60px;
+    /* left: 100px; */
+    top: 20px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 20px 20px;
+  }
+  .left{
+    color: white;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    
+  }
+  .right{
+    color: white;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 120px;
+  }
+}
 @media (min-width: 1024px) {
 
   .navbar{
@@ -65,7 +97,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 150px;
+    width: 200px;
   }
 } 
 @media (min-width: 1920px) {

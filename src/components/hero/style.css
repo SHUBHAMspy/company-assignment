@@ -1,5 +1,4 @@
 
-
 .hero{
   position: relative;
   width: 100%;
@@ -19,44 +18,37 @@
   background: rgba(0, 0, 0, 0.65);
 
 }
-.hero-content{
-  /* position: absolute; */
+
+.social{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 800px;
-  height: 721px;
-  padding-left: 50px;
-  padding-right: 50px;
-  top: 10px;
-  margin: auto;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100px;
+  color: white;
+  margin-left: 10px;
 }
-.company-name{
-  position: absolute;
-  width: 700px;
-  height: 250px;
-  margin: auto;
-  top: 120px;
-
-  font-family: 'ZilapOrionPersonalUse', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 80px;
-  line-height: 117%;
-  /* or 125px */
-
+.pager{
   display: flex;
-  align-items: center;
-  text-align: center;
-
-  background: linear-gradient(90deg, #E65C00 0%, #F9D423 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  /* text-fill-color: transparent; */
-
-  opacity: 0.99;
-  text-shadow: 0px 20px 20px rgba(0, 0, 0, 0.5);
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  height: 180px;
+}
+.indicators{
+  
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.page{
+  font-weight: 700;
+  width: 50px;
+}
+.indicators .indicator{
+  background-color: white;
+  width: 2px;
+  height: 30px;
 }
 
 .hero-description{
@@ -103,17 +95,170 @@ width: 1200px; */
   background-size: cover;
   background-position: center ;
 }
-@media(min-width:641px){
+@media(max-width:675px){
+  .hero-content{
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 360px; */
+    width: 100%;
+    height: 500px;
+    top: 10px;
+    /* margin: auto; */
+  }
+  .hero-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 375px;
+    height: 500px;
+    margin: auto;
+  }
+  .company-name{
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    margin: auto;
+    top: 120px;
   
-}
-@media(min-width:676px){
+    font-family: 'ZilapOrionPersonalUse', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 117%;
+    /* or 125px */
+  
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+    background: linear-gradient(90deg, #E65C00 0%, #F9D423 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+  
+    opacity: 0.99;
+    text-shadow: 0px 20px 20px rgba(0, 0, 0, 0.5);
+  }
   .hero-description{
     position: absolute;
-    width: 650px;
+    width: 320px;
     height: fit-content;
     /* padding-left: 50px;
     padding-right: 50px; */
-    top: 360px;
+    top: 250px;
+    margin-bottom: 20px;
+  
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 75px */
+  
+    text-align: center;
+  
+    color: #FFFFFF;
+  
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .hero-button{
+    box-sizing: border-box;
+  
+  /* Auto layout */
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 18px;
+    gap: 10px;
+  
+    color: white;
+    font-size: 12px;
+    width: 120px;
+    height: 40px;
+    /* left: 300px; */
+    top: 400px;
+    margin: auto;
+  
+    background: linear-gradient(90deg, #F9D423 0%, #E65C00 100%);
+    border: 2px solid #FFFFFF;
+    border-radius: 24px;
+  }
+  .pager{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    height: 180px;
+    width: 10px;
+  }
+
+  .page{
+    font-weight: 700;
+    width: 10px;
+  }
+}
+@media(min-width:676px){
+  .hero-content{
+    /* position: absolute; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+    height: 721px;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    top: 10px;
+    /* margin: auto; */
+  }
+
+  .hero-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 721px;
+    margin: auto;
+  }
+  .company-name{
+    position: absolute;
+    width: 600px;
+    height: 250px;
+    margin: auto;
+    top: 120px;
+  
+    font-family: 'ZilapOrionPersonalUse', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 117%;
+    /* or 125px */
+  
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+    background: linear-gradient(90deg, #E65C00 0%, #F9D423 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+  
+    opacity: 0.99;
+    text-shadow: 0px 20px 20px rgba(0, 0, 0, 0.5);
+  }
+  .hero-description{
+    position: absolute;
+    width: 580px;
+    height: fit-content;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    top: 320px;
     margin-bottom: 20px;
   
     font-family: 'Montserrat Alternates';
@@ -139,11 +284,11 @@ width: 1200px; */
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 8px 25px;
+    padding: 8px 20px;
     gap: 10px;
   
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     width: 150px;
     height: 40px;
     /* left: 300px; */
@@ -156,6 +301,17 @@ width: 1200px; */
   }
 }
 @media(min-width:1024px){
+  .hero-content{
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 721px;
+    
+    top: 10px;
+    /* margin: auto; */
+  }
   .company-name{
     position: absolute;
     width: 700px;
