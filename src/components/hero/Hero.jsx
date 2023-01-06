@@ -7,7 +7,9 @@ import {
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import './style.css'
-const Hero = () => {
+import { faArrowDownLong } from '@fortawesome/free-solid-svg-icons';
+import ScrollDownButton from '../scrollDownButton/ScrollDownButton';
+const Hero = ({handleClick}) => {
   return (
     <section className='hero hero-img' style={{"--img": `url(${HeroImage})`}}>
       {/* <div className='hero-img' style={{"--img": `url(${HeroImage})`}} > */}
@@ -23,6 +25,7 @@ const Hero = () => {
               <p> An incredible multi-industrial approach oriented towards financial independence, customer focus and serving the best quality to the people.</p>
             </div>
             <button className='hero-button'>Explore Now</button>
+            <ScrollDownButton handleClick={handleClick}/>
           </div>
           <div className='pager'>
             <div className='indicators'>
@@ -33,7 +36,6 @@ const Hero = () => {
             <div className='page'>02</div>
             
           </div>
-
         </div>
     </section>
   )

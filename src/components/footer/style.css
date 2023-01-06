@@ -1,0 +1,10 @@
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 10rem;
+}
+
+.footer > img{
+  width: 100px;
+}

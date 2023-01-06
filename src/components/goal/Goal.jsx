@@ -2,9 +2,9 @@ import React from 'react'
 import './style.css'
 import Polygon from "../../assets/images/big_polygon.png";
 
-const Goal = () => {
+const Goal = React.forwardRef((props,ref) => {
   return (
-    <section className='goal'>
+    <section className='goal' ref={ref}>
       <img className="polygon" src={Polygon}/>
       <div className='goal-content'>
         <h2 className='goal-heading'>THE RAMAERA EXPANSION</h2>
@@ -12,6 +12,6 @@ const Goal = () => {
       </div>
     </section>
   )
-}
+})
 
 export default Goal

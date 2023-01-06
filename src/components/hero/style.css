@@ -19,6 +19,8 @@
 
 }
 
+
+
 .social{
   display: flex;
   flex-direction: column;
@@ -192,6 +194,7 @@ width: 1200px; */
     border: 2px solid #FFFFFF;
     border-radius: 24px;
   }
+  
   .pager{
     display: flex;
     flex-direction: column;

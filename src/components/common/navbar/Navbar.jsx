@@ -6,37 +6,46 @@ import {faMagnifyingGlass,faBars, faXmark, faChevronDown,} from "@fortawesome/fr
 
 const Navbar = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
+  const [isActive, setisActive] = useState(true);
+  const handleClick = () => {
+    setisActive(true)
+  }
 
   return (
     <>  
-        
         <nav className={isNavExpanded ? 'navbar-expanded': 'navbar'}>
           <ul className='left'>
-            <li className='item'>HOME</li>
-            <li className='item'>
-              OUR INDUSTRIES 
-              <FontAwesomeIcon
-                icon={faChevronDown}
-                className="arrowDown__icon"
-              />
+            <li className={isActive ?'active':'item' }onClick={handleClick}><a href="#home">HOME</a></li>
+            <li className='item'  onClick={handleClick}>
+              <a href="#industries">
+                OUR INDUSTRIES 
+                <FontAwesomeIcon
+                  icon={faChevronDown}
+                  className="arrowDown__icon"
+                />
+              </a>
             </li>
-            <li className='item'>
-              OUR COMPANIES
-              <FontAwesomeIcon
-                icon={faChevronDown}
-                className="arrowDown__icon"
-              />
+            <li className='item' onClick={handleClick}>
+              <a href="#companies">
+                OUR COMPANIES
+                <FontAwesomeIcon
+                  icon={faChevronDown}
+                  className="arrowDown__icon"
+                />
+              </a>
             </li>
           </ul>
 
           <ul className='right'>
-            <li className='item'>Career</li>
-            <li className='item'>Contact</li>
+            <li className='item'> <a href="#career">Career</a></li>
+            <li className='item'><a href="#contact">Contact</a></li>
             <li>
-              <FontAwesomeIcon
-                icon={faMagnifyingGlass}
-                className="search item"
-              />
+              <a href="#search">
+                <FontAwesomeIcon
+                  icon={faMagnifyingGlass}
+                  className="search item"
+                />
+              </a>
             </li>
           </ul>
         </nav>
