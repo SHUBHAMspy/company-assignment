@@ -7,8 +7,8 @@ import {
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import './style.css'
-import { faArrowDownLong } from '@fortawesome/free-solid-svg-icons';
 import ScrollDownButton from '../scrollDownButton/ScrollDownButton';
+
 const Hero = ({handleClick}) => {
   return (
     <section className='hero hero-img' style={{"--img": `url(${HeroImage})`}}>

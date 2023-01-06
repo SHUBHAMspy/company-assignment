@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './style.css'
 
 const Button = ({className}) => {
-  const [isMobile, setIsMobile] = useState(false)
+  // const [isMobile, setIsMobile] = useState(false)
   // let style = isMobile 
   //   ? {
   //       "borderColor": `${color}`,
@@ -12,13 +12,13 @@ const Button = ({className}) => {
   //       "borderColor": `${color}`,
   //       "marginLeft":`${margin}`
   //     }  
-  useEffect(() => {
-    window.addEventListener('resize',resize)
+  // useEffect(() => {
+  //   window.addEventListener('resize',resize)
   
-    return () => {
-      window.addEventListener('resize',resize)
-    }
-  }, [])
+  //   return () => {
+  //     window.addEventListener('resize',resize)
+  //   }
+  // }, [])
   
   let resize = () => {
     if(window.innerWidth <= 675) setIsMobile(true)

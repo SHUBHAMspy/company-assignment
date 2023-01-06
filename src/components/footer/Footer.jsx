@@ -8,7 +8,7 @@ const Footer = () => {
       <div className='footer-content'>
         
       </div>
-      <img className="" src={smallPolygon}/>
+      <img className="" src={smallPolygon} alt='a small polygon'/>
     </section>
   )
 }
