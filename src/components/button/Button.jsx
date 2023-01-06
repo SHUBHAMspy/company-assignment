@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+
 import './style.css'
 
 const Button = ({className}) => {
@@ -20,9 +20,9 @@ const Button = ({className}) => {
   //   }
   // }, [])
   
-  let resize = () => {
-    if(window.innerWidth <= 675) setIsMobile(true)
-  }
+  // let resize = () => {
+  //   if(window.innerWidth <= 675) setIsMobile(true)
+  // }
   return (
     <button 
       className={className}
